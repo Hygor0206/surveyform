@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+}
+
+body {
+    background-color: #9f86c0;
+    color: #be95c4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: none;
+  /* Firefox */
+}
+
+#title{
+    font-size: 2rem;
+}
+
+#title, #description{
+    text-align: center;
+    color: #231942;
+    margin: 25px 0;
+}
+
+#survey-form{
+    background-color: #5e548e;
+    align-items: center;
+    border-radius: 4px;
+    margin: 25px 350px;
+    padding: 30px 40px;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+.text-input, #dropdown, #most-like, .textarea, #submit{
+    display: flex;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.radio, .checkbox{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#recommend , #improved{
+    display: flex;
+    flex-direction: column;
+}
+
+#improved span{
+    margin-bottom: 10px;
+}
+
+#submit{
+    background-color: #e0b1cb;
+    color: #231942;
+    justify-content: center;
+    padding: 10px 0;
+}
+
