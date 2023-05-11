@@ -6,4 +6,6 @@
 
 ### [Survey Form Template](https://survey-form.freecodecamp.rocks/)
 
+### [Here's the link to the form](https://hygor0206.github.io/surveyform/)
+
 ### All credits to freeCodeCamp.
